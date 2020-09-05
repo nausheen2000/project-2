@@ -1,0 +1,33 @@
+#assigning elements to different lists
+list1=['elem1','elem2']
+print("list1: ",list1)
+list1.append(str(input("enter new element in list1: ")))
+print("new list1",list1)
+list2=['el1','el2']
+print("list2: ",list2)
+list2.append(str(input("enter new element in list2: ")))
+print("new list2",list2)
+
+
+
+#accessing elements from a tuple
+tuple=("C","C++","Python")
+print(tuple)
+m=int(input("enter index of element you want to access: "))
+print("element you wanted to access is: ",tuple[m])
+
+
+
+#deleting different dictionary elements
+dict={"1":"one",
+      "2":"two",
+      "3":"three"
+     }
+print("Dictionary: ",dict)
+
+del(dict["1"])
+print("after deleting '1': ",dict)
+del(dict["2"])
+print("after deleting '2': ",dict)
+del(dict["3"])
+print("after deleting '3': ",dict)
